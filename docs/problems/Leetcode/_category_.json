@@ -1,0 +1,8 @@
+{
+  "label": "Leetcode",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Solutions of Leetcode Interview problems"
+  }
+}
