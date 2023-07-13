@@ -7,9 +7,15 @@ dependencies:
   '@docusaurus/preset-classic':
     specifier: 2.4.1
     version: 2.4.1(@algolia/client-search@4.18.0)(react-dom@17.0.2)(react@17.0.2)(search-insights@2.7.0)(typescript@4.7.4)
+  '@gracefullight/docusaurus-plugin-vercel-analytics':
+    specifier: ^0.1.0
+    version: 0.1.0
   '@mdx-js/react':
     specifier: ^1.6.22
     version: 1.6.22(react@17.0.2)
+  '@vercel/analytics':
+    specifier: ^1.0.1
+    version: 1.0.1
   clsx:
     specifier: ^1.2.1
     version: 1.2.1
@@ -2365,6 +2371,19 @@ packages:
       - webpack-cli
     dev: false
 
+  /@gracefullight/docusaurus-plugin-vercel-analytics@0.1.0:
+    resolution: {integrity: sha512-3WjKrFtb2b67IHxgeBDTBBCsn6WgF5Rj0BwQKxL34bWgQRIuafQLoTMX1qu9u6naMvXodwv2Y5K3sWemsX9IQg==}
+    dependencies:
+      '@docusaurus/utils-validation': 2.4.1(@docusaurus/types@2.4.1)
+    transitivePeerDependencies:
+      - '@docusaurus/types'
+      - '@swc/core'
+      - esbuild
+      - supports-color
+      - uglify-js
+      - webpack-cli
+    dev: false
+
   /@hapi/hoek@9.3.0:
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
 
@@ -2934,6 +2953,10 @@ packages:
     resolution: {integrity: sha512-6i0aC7jV6QzQB8ne1joVZ0eSFIstHsCrobmOtghM11yGlH0j43FKL2UhWdELkyps0zuf7qVTUVCCR+tgSlyLLw==}
     dependencies:
       '@types/yargs-parser': 21.0.0
+    dev: false
+
+  /@vercel/analytics@1.0.1:
+    resolution: {integrity: sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==}
     dev: false
 
   /@webassemblyjs/ast@1.11.6:
